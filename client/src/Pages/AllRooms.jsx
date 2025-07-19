@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react'
 import { assets } from '../assets/assets'
 import { useAppContext } from '../context/AppContext'
 import StarRating from '../components/StarRating'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom' gvjkfkbjrgilb
 
 const CheckBox = ({ label, selected = true, onChange = () => { } }) => {
     return (
